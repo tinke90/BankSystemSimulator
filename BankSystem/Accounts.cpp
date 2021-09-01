@@ -542,6 +542,7 @@ void Accounts::LoanSize(int _serial) {
 	cout << "Loan size: " << _loan->GetLoanSize() << endl;
 }
 
+
 /**
 * Get loan period...
 */
