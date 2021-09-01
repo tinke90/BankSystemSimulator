@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{107c3961-2ce4-42f5-a6a5-2cfaaa97fa36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\class">
+      <UniqueIdentifier>{a952ce37-380f-4e8a-a5aa-e9b17a2a6b36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\class\account">
+      <UniqueIdentifier>{ad81bd92-6e9d-4c22-8825-66c562f318d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\account">
+      <UniqueIdentifier>{687856fe-38f8-4afd-8240-5d5fb8e848f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils\header">
+      <UniqueIdentifier>{0b8dbe5b-ec6b-428b-b227-6bf38779935a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils\class">
+      <UniqueIdentifier>{740e2996-bb24-4d81-987d-a491fd4c5ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\class\loan">
+      <UniqueIdentifier>{270b1a5d-99d4-4b79-8d70-c4ae36ef8cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\loan">
+      <UniqueIdentifier>{71f7a2f1-d716-46e7-beb2-37036b835edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils\class\split_string">
+      <UniqueIdentifier>{dc74d263-df6d-4414-8d02-3736d3ddb863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils\header\split_string">
+      <UniqueIdentifier>{3f756a2c-7d10-47dd-a18f-0c3a0b8b2425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils\class\user_id">
+      <UniqueIdentifier>{c7088615-162b-4041-bd66-0d6cfe21ef69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils\header\user_id">
+      <UniqueIdentifier>{e07cec5a-504c-42a5-89d4-39ad5a267710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils\class\date_time">
+      <UniqueIdentifier>{195bbaf8-761a-4f66-8371-7edab3fdf15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils\header\date_time">
+      <UniqueIdentifier>{7e27c6e8-498e-402a-bfd0-57cae8110b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils\class\hidden_password">
+      <UniqueIdentifier>{39000d7e-06af-43cf-aa34-13a579b61578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils\header\hidden_password">
+      <UniqueIdentifier>{0cf190fe-5557-4822-a087-a362af18ba3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BankSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountProperty.cpp">
+      <Filter>Source Files\class\account</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomGenerator.cpp">
+      <Filter>Source Files\utils\class</Filter>
+    </ClCompile>
+    <ClCompile Include="Accounts.cpp">
+      <Filter>Source Files\class\account</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs.cpp">
+      <Filter>Source Files\utils\class</Filter>
+    </ClCompile>
+    <ClCompile Include="Help.cpp">
+      <Filter>Source Files\utils\class</Filter>
+    </ClCompile>
+    <ClCompile Include="Convert.cpp">
+      <Filter>Source Files\utils\class</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsolePrint.cpp">
+      <Filter>Source Files\utils\class</Filter>
+    </ClCompile>
+    <ClCompile Include="Loan.cpp">
+      <Filter>Source Files\class\loan</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitString.cpp">
+      <Filter>Source Files\utils\class\split_string</Filter>
+    </ClCompile>
+    <ClCompile Include="UserId.cpp">
+      <Filter>Source Files\utils\class\user_id</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTime.cpp">
+      <Filter>Source Files\utils\class\date_time</Filter>
+    </ClCompile>
+    <ClCompile Include="HiddenInput.cpp">
+      <Filter>Source Files\utils\class\hidden_password</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccountProperty.h">
+      <Filter>Header Files\account</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomGenerator.h">
+      <Filter>Source Files\utils\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Accounts.h">
+      <Filter>Header Files\account</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs.h">
+      <Filter>Source Files\utils\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Help.h">
+      <Filter>Source Files\utils\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Convert.h">
+      <Filter>Source Files\utils\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsolePrint.h">
+      <Filter>Source Files\utils\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Loan.h">
+      <Filter>Header Files\loan</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitString.h">
+      <Filter>Source Files\utils\header\split_string</Filter>
+    </ClInclude>
+    <ClInclude Include="UserId.h">
+      <Filter>Source Files\utils\header\user_id</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTime.h">
+      <Filter>Source Files\utils\header\date_time</Filter>
+    </ClInclude>
+    <ClInclude Include="HiddenInput.h">
+      <Filter>Source Files\utils\header\hidden_password</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
